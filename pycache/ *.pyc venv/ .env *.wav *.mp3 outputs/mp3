@@ -1,0 +1,7 @@
+---
+
+## src/sound2text/__init__.py
+
+```python
+"""Sound2Text package."""
+__version__ = "0.1.0"
