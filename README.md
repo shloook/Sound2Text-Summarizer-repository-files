@@ -1,4 +1,4 @@
- <img width="378" height="317" alt="scene-one" src="https://github.com/user-attachments/assets/f7016d26-0970-4235-84da-a54289a9d921" /> <img width="378" height="360" alt="Frame_31613475_1" src="https://github.com/user-attachments/assets/5044b9bf-4e2d-47b6-bc68-26bc19dd1d78" />
+ <img width="378" height="317" alt="scene-one" src="https://github.com/user-attachments/assets/f7016d26-0970-4235-84da-a54289a9d921" /> <img width="378" height="410" alt="Frame_31613475_1" src="https://github.com/user-attachments/assets/5044b9bf-4e2d-47b6-bc68-26bc19dd1d78" />
 
 
  # 🎧 Sound2Text Summarizer
