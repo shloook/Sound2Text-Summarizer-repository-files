@@ -1,0 +1,7 @@
+Sound2Text-Summarizer/
+├── .gitignore      ← ✅ goes here
+├── README.md
+├── requirements.txt
+├── pyproject.toml
+├── src/
+└── outputs/
