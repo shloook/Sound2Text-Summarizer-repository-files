@@ -1,0 +1,36 @@
+click
+transformers
+torch
+torchaudio
+librosa
+soundfile
+tqdm
+python-dotenv
+sentencepiece
+accelerate
+openai-whisper
+fsspec
+aiolimiter
+# add any cloud STT SDKs you use, e.g., openai, deepgram-sdk (only if used)
+
+
+# Git commands:
+git checkout -b add/requirements
+cat > requirements.txt <<'REQ'
+click
+transformers
+torch
+torchaudio
+librosa
+soundfile
+tqdm
+python-dotenv
+sentencepiece
+accelerate
+openai-whisper
+fsspec
+aiolimiter
+REQ
+git add requirements.txt
+git commit -m "Add requirements.txt with core dependencies"
+git push -u origin add/requirements
