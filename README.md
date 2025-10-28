@@ -147,4 +147,26 @@ Sound2Text-Summarizer/
 └── models/
     └── README.md               # Custom model usage
 
+```python
+from sound2text.pipeline import transcribe_and_summarize
+
+result = transcribe_and_summarize(
+    audio_path="sample.wav",
+    stt_backend="local_whisper",
+    stt_options={"model_name": "base"},
+    summarizer_model="sshleifer/distilbart-cnn-12-6",
+)
+
+print("\n--- SUMMARY ---\n")
+print(result["summary"]["summary_text"])
+
+
+**Git commands to apply:**
+```bash
+git checkout -b fix/readme-python-snippet
+# edit README.md and replace the broken snippet with the block above
+git add README.md
+git commit -m "Fix README: correct python example snippet and line breaks"
+git push -u origin fix/readme-python-snippet
+# open PR on GitHub
 
