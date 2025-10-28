@@ -1,0 +1,95 @@
+# -------------------------------
+# 🐍 Python
+# -------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.env/
+.venv/
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# -------------------------------
+# 🎧 Audio / Data Files
+# -------------------------------
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+*.opus
+*.webm
+
+# -------------------------------
+# 🤖 Machine Learning / Models
+# -------------------------------
+*.pt
+*.bin
+*.ckpt
+*.onnx
+*.h5
+*.tflite
+*.pb
+models/
+transformers_cache/
+huggingface_cache/
+hf_cache/
+.cache/
+
+# -------------------------------
+# 📦 Outputs
+# -------------------------------
+outputs/
+artifacts/
+runs/
+logs/
+
+# -------------------------------
+# ⚙️ System & IDE
+# -------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# -------------------------------
+# 🔒 Secrets
+# -------------------------------
+.env
+*.key
+*.pem
+*.crt
